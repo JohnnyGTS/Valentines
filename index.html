@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            background-color: #ffe6e6;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff3366;
+            margin-top: 20px;
+        }
+        .button-container {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button {
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ff6699;
+        }
+        .photo-container {
+            margin-top: auto;
+            padding-top: 20px;
+        }
+        img {
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+        function showDamnMessage() {
+            alert("Hmm ek dink jy wou ja sê toe sê jy nee. Probeer maar weer");
+        }
+    </script>
+</head>
+<body>
+    <h1>My liefie! 💖</h1>
+    <h2>Ek weet dit is laat en ek weet jy is kwaad dat ek jou nie gevra het nie maar, will you be my valentine?</h2>
+    <div class="button-container">
+        <p>Kies hier onder:</p>
+        <button onclick="location.href='Yes.html'">Yes</button>
+        <button onclick="showDamnMessage()">No</button>
+        <hr>
+        <img src="me.jpg" alt="Your chosen image">
+    </div>
+</body>
+</html>
